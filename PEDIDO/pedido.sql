@@ -1,0 +1,7 @@
+-- Tabela PEDIDO
+CREATE TABLE pedido (
+ pedido_id SERIAL PRIMARY KEY,
+ telefone INTEGER NOT NULL,
+ data TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ,
+ valor DECIMAL(4 , 2 )
+);
